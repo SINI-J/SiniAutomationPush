@@ -1,0 +1,89 @@
+﻿MSTest is a Unit Testing Framework
+
+Unit Testing - Developer
+
+when we will use unit Testing  no need to use PSVM 
+we have use Annotations 
+
+[TestMethod] along with [TestClass]
+
+Can we override main method 
+
+[TestInitalization] - It will run before every [TestMethod] annotation
+[TestCleanUp]- it will run after every [TestMethod] Annotation
+
+
+[AssemblyInitalize] - It will execute  once Before any of the [testMethod]
+[AssemblyCleanup] - It will execute once  after any of the [TestMethod]
+
+[AssemblyInitalize]
+[TestMethod]-test1
+[TestMethod]- test2
+[TM]- Test3
+[TM]- Test4
+[AssemblyCLeanup]
+
+That will work only static method
+
+
+in selenium we have multiple locator and every thing is called as webelement 
+
+id 
+name
+
+xapth
+css
+linktext
+classname
+
+in selenium we have two methods
+
+sendkeys--  writing somethimg inside into the text box
+click() - click on any webelement /button/link as well
+
+https://demo.guru99.com/test/newtours/register.php
+
+
+Xpath -- locators
+
+Purple color - Tag Name
+Red Color - -Attribute
+Blue Color - Value
+Black - Text value
+
+1- //tagname[@attribute='value']
+
+//input[@title='Search']
+
+2-  //tagname[text()='textvalue']
+
+//a[text()='Gmail']
+
+//a[text()='Customer Service']
+
+3- (//a[text()='Customer Service'])[1] -- Location Wise xpath
+
+//a[text()='Today's Deals']
+
+with the help of contains in xpath
+
+//tagname[contains(text(),'search value')]
+
+//a[contains(text(),'Deals')]
+
+*/
+(//a[@data-ip-position='offers-hover-menu'])[1]
+
+/*
+
+MouseHovering
+https://demo.guru99.com/test/delete_customer.php
+https://demo.guru99.com/test/simple_context_menu.html
+https://demo.guru99.com/test/drag_drop.html
+
+
+
+
+
+
+
